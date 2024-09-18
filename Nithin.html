@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Develompent</title>
+    <style>
+        h1 {
+            color: tomato;
+        }
+
+        h2 {
+            color: orchid;
+        }
+
+        h3 {
+            color: dodgerblue;
+        }
+
+        body {
+            background-color: lightgoldenrodyellow;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <marquee behavior="alternate" direction="right" scrollamount="20">
+        <h1 id="top">Web Development</h1>
+    </marquee>
+    <hr>
+    <u>
+        <h2>Inserting an Image</h2>
+    </u>
+    <center><img src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png" alt="Image Broken"
+            width="400px" height="300px"></center>
+    <hr>
+    <u>
+        <h2>Moving an image</h2>
+    </u>
+    <marquee behavior="alternate" direction="left"><img
+            src="https://cdn.pixabay.com/photo/2021/03/27/06/31/code-6127616_1280.png" alt="Moving Image" width="300px"
+            height="300px"></marquee>
+    <hr>
+    <b>
+        <h2>Inserting a video</h2>
+    </b>
+    <center><video src="https://cdn.pixabay.com/video/2020/01/13/31210-385265519_large.mp4" width="400px" height="300px"
+            autoplay controls loop muted></video></center>
+    <hr>
+    <h2>Inserting an audio</h2>
+    <audio src="c:\Users\Nithin\Downloads\ocean-190100.mp3" controls type="mp3"></audio>
+    <!-- <audio controls>
+        <source src="./../../../Downloads/ocean-190100.mp3" type="audio/mp3">
+    </audio> -->
+    <hr>
+    <h2>
+        Paragraph
+    </h2>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Web development</b> involves creating, building, and
+        maintaining websites. It encompasses everything from the layout
+        and design of a webpage to its functionality, performance, and security. There are two main types of web
+        development: front-end and back-end. <br>
+
+        Front-end development focuses on the parts of a website that users interact with directly, like the layout,
+        design, buttons, and navigation. <i>This typically involves languages like HTML, CSS, and JavaScript</i>, which
+        control
+        the structure, style, and interactive behavior of the site. <br>
+
+        Back-end development refers to the server-side of the website. <mark>It deals with databases, server logic, and
+            application programming interfaces (APIs).</mark> Common back-end languages include PHP, Python, Ruby, and
+        frameworks
+        like Node.js. <br>
+
+        Modern <b>web development</b> also includes full-stack development, where developers work on both the front-end
+        and
+        back-end. <br>
+
+        <b>Web developers</b> ensure that websites are fast, responsive, and secure. They also optimize them for search
+        engines
+        (SEO) and integrate content management systems (CMS) like WordPress or Drupal. <br>
+
+        With the growth of the internet, <b>web development</b> has become a crucial skill, powering millions of
+        websites,
+        applications, and online services worldwide. <br>
+    </p>
+    <hr>
+    <h2>Creating tables in HTML</h2>
+    <center>
+        <table border="5px" cellspacing="10px" cellpadding="10px"
+            style="border-collapse: collapse; background-color: aquamarine;">
+            <tr>
+                <th>Table Head 1</th>
+                <th>Table Head 2</th>
+                <th>Table Head 3</th>
+            </tr>
+            <tr>
+                <td> Table Data 1</td>
+                <td> Table Data 2</td>
+                <td> Table Data 3</td>
+
+            </tr>
+            <tr>
+            <td> Table Data 4</td>
+            <td> Table Data 5</td>
+            <td> Table Data 6</td>
+
+            </tr>
+            <tr>
+            <td> Table Data 7</td>
+            <td> Table Data 8</td>
+            <td> Table Data 9</td>
+
+            </tr>
+        </table>
+    </center>
+    <h3> RowSpan</h3>
+    <table border="5px" cellspacing="5px" cellpadding="5px"
+        style="border-collapse: collapse; background-color: honeydew;">
+        <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td rowspan="3" style="text-align: center;">3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <h3>
+        Colspan
+    </h3>
+    <table border="5px" cellspacing="5px" cellpadding="5px"
+        style="border-collapse: collapse; background-color: honeydew;">
+        <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">1</td>
+            <td>2</td>
+
+        </tr>
+        <tr>
+
+            <td colspan="3" style="text-align: center;">3</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <h3> Nested Tables</h3>
+    <table border="5px" cellspacing="10px" cellpadding="10px"
+        style="border-collapse: collapse; background-color: aquamarine;">
+        <tr>
+            <th>Table Head 1</th>
+            <th>Table Head 2</th>
+            <th>Table Head 3</th>
+        </tr>
+        <tr>
+            <td> <table border="5px" cellspacing="10px" cellpadding="10px"
+                style="border-collapse: collapse; background-color: aquamarine;">
+                <tr>
+                    <th>Table Head 1.1</th>
+                    <th>Table Head 2.1</th>
+                    
+                </tr>
+                <tr>
+                    <td> Table Data 1.1</td>
+                    <td> Table Data 2.1</td>
+                    
+        
+                </tr>
+                <tr>
+                    <td> Table Data 3.1</td>
+                    <td> Table Data 4.1</td>
+                    
+        
+                </tr>
+                <tr>
+                <td> Table Data 5.1</td>
+                <td> Table Data 6.1</td>
+                
+        
+                </tr>
+            </table></td>
+            <td> Table Data 2</td>
+            <td> Table Data 3</td>
+
+        </tr>
+        <tr>
+            <td> Table Data 4</td>
+            <td> Table Data 5</td>
+            <td> Table Data 6</td>
+
+        </tr>
+        <tr>
+        <td> Table Data 7</td>
+        <td> Table Data 8</td>
+        <td> Table Data 9</td>
+
+        </tr>
+    </table>
+    <hr>
+    <h2>HyperLinks and Pagination</h2>
+    <h3>Hyperlink</h3>
+    <a href="https://fast.com" target="_main"><p>Click here to check your Internet Speed </p></a>
+<h3>Pagination</h3>
+<b><p>Internal Pagination</p></b>
+<a href=#top><p>Click here to go on TOP OF THIS PAGE</p></a>
+<b><p>External Pagination</p></b>
+<a href="./demo.html"><p>Click here to see my first demo page</p></a>
+</body>
+
+</html>

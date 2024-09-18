@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 10px;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px 0px #888888;
+            width: calc(32% - 15px);
+            margin: 10px;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .row {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .value {
+            font-weight: bold;
+            width: 70px;
+        }
+
+        .key {
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h3>Overview</h3>
+            <div class="row">
+                <span class="key">Events:</span>
+                <span class="value">3</span>
+            </div>
+            <!-- Other cards for Entities, Signals, Users, Threats -->
+        </div>
+        <div class="card">
+            <h
