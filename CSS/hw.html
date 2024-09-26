@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW</title>
+    <style>
+        html{
+            height: 100%;
+        }
+        body {
+            background-image:url(https://cdn.pixabay.com/photo/2018/03/08/21/51/lake-3209994_1280.jpg);
+            /* background-position: center; */
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        #div1 {
+            height: 500px;
+            width: 800px;
+            background: url(https://cdn.pixabay.com/photo/2021/07/17/04/04/hippopotamus-6472256_1280.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin: 200px;
+            float: left;
+            /* background-color: black */
+
+        }
+        /* #marqdiv{
+            background-image: url(./watermelon.png);
+            float: left;
+            height: 200px;
+            width: 200px;
+            
+        } */
+        marquee{
+                    behavior: scroll;
+                    direction: left;
+                    /* background-color: black; */
+                    background-size: 200px;
+                    
+
+        }
+        #hippo{
+            background-color: rgb(222, 27, 27); height: 300px; width: 30%; margin-top: 200px; float: right;
+            background-image: url(https://cdn.pixabay.com/photo/2021/07/17/04/04/hippopotamus-6472256_1280.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #melon{
+             height: 300px; width: 70%; margin-top: 250px; float: right;
+        }
+        marquee{width: 130%;
+            
+        }
+        
+    </style>
+</head>
+<!-- <span id="div1"></span> -->
+<div id="melon" >
+    <marquee behavior="scroll" direction="left" scrollamount="30" width><img src="./watermelon.png" alt="" height="200px" width="200px"></marquee>
+</div>
+<div id="hippo" >
+    
+</div>
+<!-- <marquee ><div><img src="./watermelon.png" height="200px" width="200px"></div></marquee> -->
+ 
+<body>
+
+</body>
+
+</html>

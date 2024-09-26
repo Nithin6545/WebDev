@@ -1,0 +1,30 @@
+
+#he{
+    color: red;
+}
+.pa{
+    color: blue;
+}
+#he,.pa {
+    background-color: aquamarine;
+}
+*{
+    text-align: center;
+}
+.bl{
+    color: blue;
+}
+#ye{
+    color: yellow;
+}
+.re{
+    color: red;
+}
+#gr{
+    color: green;
+}
+.google{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 200px;
+}
