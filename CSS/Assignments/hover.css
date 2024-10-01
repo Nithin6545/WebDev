@@ -1,0 +1,49 @@
+h1{
+    
+   font-size: 100px;
+    float: left;
+    padding: 50px;
+}
+/* span{
+    font-size: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family:serif;
+} */
+#n{
+    color:darkturquoise ;
+    text-shadow: 2px 5px 2px red;
+}
+#n:hover{
+    color:darkviolet ;
+    text-shadow: 2px 5px 2px blue;
+    margin-top: 50px;
+}
+#i{
+    color:darkviolet ;
+    text-shadow: 2px 5px 2px blue;
+}
+#i:hover{
+    color: darkgreen ;
+    text-shadow: 2px 5px 2px yellowgreen;
+    margin-bottom: 50px;
+}
+
+#c{
+    color: darkgreen ;
+    text-shadow: 2px 5px 2px yellowgreen;
+}
+#c:hover{
+    color: darkorange;
+    text-shadow: 2px 5px 2px gray;
+    margin-bottom: 50px;
+}
+#k{
+    color: darkorange;
+    text-shadow: 2px 5px 2px gray;
+}
+#k:hover{
+    color:darkturquoise ;
+    text-shadow: 2px 5px 2px red;
+    margin-bottom: 50px;
+}
