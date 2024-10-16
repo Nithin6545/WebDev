@@ -1,0 +1,36 @@
+div{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    opacity: 70%;
+    border: 2px bold black;
+
+}
+#a{
+    background-color: bisque;
+    top: 250px;
+    left: 250px;
+    z-index: 4;
+   
+
+}
+#b{
+    background-color: rgb(54, 114, 165);
+    left: 100px;
+    z-index: 10;
+}
+#c{
+ background-color: blueviolet;
+ top: 100px;
+ left: 150px;
+ z-index: 5;
+}
+#d{
+background-color: black;
+top: 200px;
+left: 200px;
+z-index: 3;
+}
+h1{
+    color: white;
+}

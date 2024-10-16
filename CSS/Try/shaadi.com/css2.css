@@ -1,0 +1,110 @@
+#logo{
+    height: 70px;
+    width: 60%;
+    /* background-color: aliceblue; */
+    justify-content: center;
+    align-content: center;
+
+}
+#logo img{
+    height: 42px;
+    width: 125px;
+    position: relative;
+    left: 100px;
+}
+#LH{
+    height: 70px;
+    width: 40%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#homepage-headline{
+    color: white;
+    position: relative;
+    /* left: 30%; */
+    top: 65%;
+    
+}
+#line{
+    margin-top: 20px;
+    height: 80%;
+    width: 2px;
+    background-color: #d2b17c;
+}
+#invite button{
+    height: 40px;
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #d2b17c;
+    font-size: 17px;
+    /* font-weight:bold; */
+}
+#fsshead{
+    height: 100px;
+    width: 80%;
+    /* background-color: aquamarine; */
+    color: #ff5a60;
+}
+#a{
+    margin-top: -30px;
+    height: 50px;
+    width: 200px;
+    /* background-color: aquamarine; */
+}
+#icons{
+    height: 300px;
+    width: 25%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#fsshead1{
+    height: 200px;
+    width: 80%;
+    /* background-color: aquamarine; */
+    color: #ff5a60;
+
+}
+#swipe{
+    height: 500px;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+#swipe1{
+    height: 400px;
+    width: 30%;
+    /* background-color: cadetblue; */
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.05);
+   
+}
+#swipe1:hover{
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+#swipe1 div{
+    height: 200px;
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+#swipe1 img{
+    height: 200px;
+    width: 100%;
+}
+#swipe1 h2{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #51505d;
+}
+#swipe1 p{
+    color: #72727d;
+    margin-left: 10px;
+}

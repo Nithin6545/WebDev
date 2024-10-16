@@ -1,0 +1,203 @@
+* {
+    font-family: cursive;
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* background-color: aquamarine; */
+    display: flex;
+    z-index: 1;
+
+}
+nav a,i{
+    color: white;
+}
+
+/* .subnav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+} */
+div .banner1 {
+    display: flex;
+}
+.banner1 select{
+height: 30px;
+width: 150px;
+}
+#age select{
+    height: 30px;
+    width: 70px;
+}
+
+.banner1 {
+    height: 80vh;
+    width: 100%;
+    /* background-color: rgb(28, 243, 171); */
+    background-image: url(https://img2.shaadi.com/assests/2024/images/shaadi-north-desktop.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    /* position: absolute; */
+    /* position: relative; */
+    top: -100px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.row {
+    height: 200px;
+    width: 70%;
+    /* background-color: black; */
+    position: relative;
+    top: 350px;
+}
+
+.form div {
+    height: 70px;
+    width: 200px;
+    /* background-color: white; */
+}
+
+.form {
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+.form button{
+    height: 40px;
+    width: 200px;
+    background-color: #53b9d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#but{
+    align-content: center;
+}
+
+.cardblock {
+    height: 350px;
+    width: 100%;
+    background-color: #F1F1F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    height: 200px;
+    width: 70%;
+    background-color: #201530;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: space-evenly; */
+
+
+}
+
+.card h1 {
+    color: #d2b17c;
+    font-family: Playfair Display, serif !important;
+    /* background-color: black; */
+    text-align: center;
+    align-items: center;
+}
+
+.card ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    /* background-color: black; */
+    /* padding-left: 50px; */
+}
+.cardsep{
+    margin-top: 50px;
+    height: 150px;
+    width: 70%;
+    /* background-color: aliceblue; */
+}
+.cardsepp{
+    height: 200px;
+    width: 30%;
+    /* background-color: rgb(12, 134, 242); */
+    align-content: space-evenly;
+}
+.cardsepp div{
+    height: 70px ;
+    width: 90%;
+    /* background-color: aliceblue; */
+}
+.cardsepp img{
+    height: 40px;
+    width: 90%;
+    margin-left: 10px;
+}
+.fss{
+    height: 500px;
+    width: 100%;
+    background-color: #F1F1F2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+.fss img{
+    height: 200px;
+    width: 200px;
+}
+.fss a p{
+    /* color: #00bcd5; */
+    text-align: center;
+
+    /* background-color: aqua; */
+}
+.fss p{
+    color: #72727d;
+    height: 50px;
+    width: 100%;
+    /* background-color: #201530; */
+}
+.testimon{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.container{
+    height: 700px;
+    width: 70%;
+    /* background-color: aliceblue; */
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: center; */
+}
+.container h1{
+    text-align: center;
+    margin-top: 100px;
+}

@@ -1,0 +1,55 @@
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: bisque;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+
+#frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 100px;
+
+}
+
+.img {
+    height: 350px;
+    width: 350px;
+    /* background-color: aqua; */
+    border: 2px solid black;
+    margin: 30px;
+    animation-name: abc;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+img {
+    height: 350px;
+    width: 100%;
+    justify-content: space-evenly;
+    /* margin: 30px; */
+
+}
+
+@keyframes abc {
+    0% {
+        transform: scale(0.5);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
